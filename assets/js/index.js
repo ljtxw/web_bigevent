@@ -40,7 +40,7 @@ function getUser(){
     });
 }
 function renderAvatar(user){
-    let name = user.nikname || user.username;
+    let name = user.nickname || user.username;
     $('#wel').html('欢迎&nbsp&nbsp'+name);
     //渲染头像
     if(user.user_pic !== null){
